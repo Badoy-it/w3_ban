@@ -1,0 +1,130 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet */
+
+@media (min-width: 46.3125em) and (max-width: 63.9375em)  {
+
+
+
+.buy-button {padding:16px 16px; }
+
+.contact-form input {
+        padding: 15px;
+}
+
+
+}
+
+
+
+/* Tablet & mobile */
+@media (min-width: 0em) and (max-width: 63.9375em) {
+    #footer .social-list>a {
+            margin: 0 8px;
+            font-size: 27px;
+        }
+    
+    .social-link a {
+            padding: 8px 0;
+                display: inline-block;
+    }
+    #nav .subnav a {
+            color: #000;
+            padding: 5px 16px ;}
+    .contact-place {
+            line-height: 2;
+        }
+
+    
+}
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width:100%;
+    }
+    .s-phone-form {
+        height:39px;
+        width:100%;
+        margin-block: 3px;
+        font-size :18px;
+        
+    }
+
+    #header {
+            overflow: hidden;
+        }
+    
+    
+        #header .search-button {
+            display: none;
+        }
+    
+        #header .menu-button {
+            display: block;
+        }
+ 
+    #nav>li {
+        display: block !important;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav  {
+        position: initial;
+        background-color: #333;
+        
+    }       
+    #nav .subnav a {
+            color: #fff; 
+        padding:5px 41px;
+        }
+
+    #nav li:first-child a {
+               display:inline-block ;
+           }
+    
+    #nav li a {
+            
+            display: block;
+        }
+    #content .member-items {
+        width:100%; 
+    }
+    #content .member-img {
+        width:60%; }
+    
+
+     .place-list {
+        display:block; 
+    }
+    .place-picture {
+            width: 100%;
+            height: 256px; }
+    .contact-content {
+             display: block;
+    }
+    .col-full {
+        width:100%;
+    }
+    .contact-form { display: block; 
+    margin-top: 32px;  
+    
+
+}
+.phonesize-form {
+ font-size :18px;
+}
+    .contact-contact {
+         width:100% ;               }
+
+    .contact-sad  {
+        display:block  ;
+    }
+
+    }
+
